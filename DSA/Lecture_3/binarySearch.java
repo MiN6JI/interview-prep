@@ -28,8 +28,15 @@ public class binarySearch {
 
         int arry[] = { 1, 2, 3, 4, 5 };
 
-        int target = 1;
+        int target = 2;
 
-        System.out.println(BS(arry, target));
+        int ans = BS(arry, target);
+
+        if(ans != 1 ){
+            System.out.println("Element Found at index: " + ans);
+        }
+        else{
+            System.out.println("Element Found at index: " + ans);
+        }
     }
 }
