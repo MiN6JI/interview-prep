@@ -1,3 +1,4 @@
+package DSA.Lecture_1;
 import java.util.*;
 
 public class bound {
