@@ -1,5 +1,4 @@
 package DSA.Lecture_3;
-
 import java.util.*;
 
 public class binarySearch {
@@ -8,7 +7,7 @@ public class binarySearch {
         int start = 0;
         int end = arry.length - 1;
         
-        while (start < end) {
+        while (start <= end) {
             int mid = (start + end) / 2;
 
             if(target > arry[mid]){
