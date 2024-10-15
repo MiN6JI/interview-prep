@@ -17,7 +17,7 @@ public class binarySearch {
                 end = mid - 1;
             }
             else{
-                System.out.println(target + " is present at " + mid + " index");
+                return mid;
             }
         }
         return -1;
