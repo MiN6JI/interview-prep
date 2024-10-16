@@ -1,4 +1,4 @@
-package DSA.Lecture_3;
+package Lecture_3;
 import java.util.*;
 
 public class binarySearch {
