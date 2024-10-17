@@ -31,9 +31,9 @@ class msr {
 
     // Extra Case 3:
 
-    int arry = {4,5,6,1,2,3};
+    // int arry = {4,5,6,1,2,3};
 
-    int minNumber = mNRA(arry);
+    // int minNumber = mNRA(arry);
 
 
     
