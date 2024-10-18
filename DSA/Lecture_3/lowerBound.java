@@ -24,11 +24,11 @@ public class lowerBound {
     }
     public static void main(String[] args){
         
-        int arry[] = {1,2,3,3,5,8,8,10,10,11};
+        int arry[] = {0,0,0,0,0,0,1,1,1,1};
 
         int size  = arry.length;
 
-        int target = 9;
+        int target = 1;
 
         int lower_bound = lower(arry, target, size);
 
