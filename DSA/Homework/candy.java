@@ -18,14 +18,28 @@ public class candy{
         
         System.out.println("Chef tu evdhe vikle aahe ka khara madhe ? " + chef);
 
-        if(expected <= chocolate) {
+        // if(expected <= chocolate) {
 
-            if(actual == expected ){
-                System.out.println(2*actual);
-            }else{
-                System.out.println("Anyhow");
-            }
+        //     if(actual == expected ){
+        //         System.out.println(2*actual);
+        //     }else{
+        //         System.out.println(actual);
+        //     }
+        // }
+
+        System.out.println("NEW");
+
+        if(actual == expected){
+            System.out.println(actual);
+        } else if(actual > expected){
+            int sum = 0;
+            sum = actual - expected;
+            System.out.println(expected + (2*sum));
+        }else if(actual < expected){
+            System.out.println(actual);
         }
-
+        else{
+            System.out.println(false);
+        }
     }
 }
