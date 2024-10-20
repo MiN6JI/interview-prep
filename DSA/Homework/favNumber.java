@@ -10,7 +10,7 @@ public class favNumber {
         if (a > 0) {
             if ((a % 2) == 0 && (a % 7) == 0) {
                 System.out.println("Alice");
-            } else if ((a % 2) == 1 && (a % 9) == 0) {
+            } else if ((a % 2) != 0 && (a % 9) == 0) {
                 System.out.println("Bob");
             } else {
                 System.out.println("Charlie");
